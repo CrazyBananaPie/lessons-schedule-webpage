@@ -19,3 +19,4 @@ jobs:
         server: files.000webhost.com
         username: universityschedule
         password: ${{ secrets.HOST_FTP_PASSWORD }}
+        remote-dir: /public_html

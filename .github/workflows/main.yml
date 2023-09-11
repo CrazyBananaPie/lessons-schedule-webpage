@@ -13,10 +13,10 @@ jobs:
     - name: Get latest code
       uses: actions/checkout@v3
 
-    - name: Push files
+    - name: Deploy files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: files.000webhost.com
         username: universityschedule
         password: ${{ secrets.HOST_FTP_PASSWORD }}
-        server-dir: /public_html/
+        server-dir: public_html/

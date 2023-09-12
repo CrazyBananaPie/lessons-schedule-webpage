@@ -20,4 +20,3 @@ jobs:
         username: universityschedule
         password: ${{ secrets.HOST_FTP_PASSWORD }}
         log-level: verbose
-        server-dir: /public_html/
